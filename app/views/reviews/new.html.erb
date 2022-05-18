@@ -1,0 +1,8 @@
+<br>
+<h1>Ecris ta review </h1>
+
+<%= simple_form_for [@restaurant, @review] do |f| %>
+  <%= f.input :content, label: 'Sois gentil pls' %>
+  <%= f.input :rating, label: 'De 0 a 5 fais pas ta pince' %>
+  <%= f.button :submit %>
+<% end %>

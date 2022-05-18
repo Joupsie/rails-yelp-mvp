@@ -1,0 +1,7 @@
+<%= simple_form_for @restaurant do |f| %>
+  <%= f.input :name, label: 'Nom de ton resto ?' %>
+  <%= f.input :address, label: 'Léou ton resto ?' %>
+  <%= f.input :category, placeholder: 'chinese, italian...' %>
+  <%= f.input :phone_number, label: 'Call me baby' %>
+  <%= f.button :submit %>
+<% end %>
